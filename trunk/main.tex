@@ -1,0 +1,119 @@
+
+\documentclass[11pt,letterpaper]{article}
+
+%\usepackage{epsf}
+%\usepackage{bib}
+%\usepackage{floatflt}
+\usepackage{cite}
+\usepackage{subfigure}
+%\usepackage{psfig}
+\usepackage{pstricks}
+\usepackage{fullpage}
+\usepackage{amsthm}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{comment}
+\usepackage[small,compact]{titlesec}
+\usepackage[small,it]{caption}
+%\usepackage[it]{caption}
+%\usepackage{times}
+\usepackage{wrapfig}
+%\usepackage{nsf}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{plain}                                                      %%
+%%%%%%%%%% EXACT 1in MARGINS %%%%%%%                                   %%
+\setlength{\textwidth}{6.5in}     %%                                   %%
+\setlength{\oddsidemargin}{0in}   %% (It is recommended that you       %%
+\setlength{\evensidemargin}{0in}  %%  not change these parameters,     %%
+%\setlength{\textheight}{8.5in}   %%  at the risk of having your       %%
+\setlength{\textheight}{9.0in}    %%
+\setlength{\topmargin}{0in}       %%  proposal dismissed on the basis  %%
+\setlength{\headheight}{0in}      %%  of incorrect formatting!!!)      %%
+\setlength{\headsep}{0in}         %%                                   %%
+\setlength{\footskip}{.5in}       %%                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                   %%
+%\newcommand{\required}[1]{\section*{\hfil #1\hfil}}                    %%
+%\renewcommand{\refname}{\hfil References Cited\hfil}                   %%
+%\bibliographystyle{plain}                                              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\squishlist}{
+   \begin{list}{$\bullet$}
+    { \setlength{\itemsep}{0pt}      \setlength{\parsep}{0pt}
+      \setlength{\topsep}{3pt}       \setlength{\partopsep}{0pt}
+      \setlength{\listparindent}{-2pt}
+      \setlength{\itemindent}{-5pt}
+      %\setlength{\itemindent}{10pt}
+      \setlength{\leftmargin}{1em} \setlength{\labelwidth}{0em}
+      \setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishlistindent}{
+   \begin{list}{$\bullet$}
+    { \setlength{\itemsep}{0pt}      \setlength{\parsep}{0pt}
+      \setlength{\topsep}{3pt}       \setlength{\partopsep}{0pt}
+      \setlength{\listparindent}{-2pt}
+      %\setlength{\itemindent}{-5pt}
+      \setlength{\itemindent}{20pt}
+      \setlength{\leftmargin}{1em} \setlength{\labelwidth}{0em}
+      \setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishend}{
+    \end{list}  }
+
+
+
+
+
+\begin{document}
+
+
+\vspace*{-0.5\baselineskip} \vspace*{-\baselineskip}
+%\newpage
+
+\thispagestyle{empty}
+
+%\input{summary}
+%\newpage
+\setcounter{page}{1}
+
+\begin{center}
+{\Large Emerging Non-Volatile Memory for Hybrid Computing System}\\
+\\
+{\Large Project Description}
+\begin{comment}
+{\Large \textbf{MAAEMO}: \footnote{MAAEMO in Finnish means ``The Mother Earth". The physical properties of the Earth allows life to evolve and persist. We envision the unique properties of emerging MRAM/PCRAM (non-volatile memory sometimes is also called persistent memory) can also evolve novel architecture and applications. }\textbf{\underline M}odeling, \textbf{\underline A}rchitecture, and \textbf{\underline A}pplication for \textbf{\underline E}merging non-volatile \textbf{\underline M}em\textbf{\underline O}ry} \\
+\end{comment}
+\end{center}
+
+\input{intro}
+\input{background}
+\input{research}
+\input{related}
+\input{education}
+\input{priorNSF}
+
+\pagebreak
+
+%\setlength{\baselineskip}{13pt}
+\setcounter{page}{1} \pagebreak
+\begin{center}
+{\Large  REFERENCES CITED} \\
+\end{center}
+\setlength{\itemsep}{0pt} \setlength{\parskip}{0pt}
+
+
+%\bibliographystyle{plain}
+\bibliographystyle{unsrt}
+
+\bibliography{./bib/helen}
+
+%\setlength{\baselineskip}{14pt}
+%\pagebreak \setcounter{page}{1}
+%\begin{center}
+%{\Large BIOGRAPHICAL SKETCH} \\
+%\end{center}
+%\vspace{0.3in}
+%\input{NSFbio-yuan}
+
+
+
+\end{document}
