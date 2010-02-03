@@ -1,0 +1,488 @@
+\begin{thebibliography}{10}
+
+\bibitem{ITRS07}
+{International Technology Roadmap for Semiconductor}, 2007.
+
+\bibitem{burr:scm08}
+G.~W. Burr, B.~N. Kurdi, J.~C. Scott, C.~H. Lam, K.~Gopalakrishnan, and R.~S.
+  Shenoty.
+\newblock Overview of candidate device technologies for storage-class memory.
+\newblock In {\em IBM Journal Research and Device}, volume~52, pages 449 --
+  464, 2008.
+
+\bibitem{Hosomi05}
+M.~Hosomi, H.~Yamagishi, T.~Yamamoto, K.~Bessho, Y.~Higo, K.~Yamane, H.~Yamada,
+  M.~Shoji, H.~Hachino, C.~Fukumoto, H.~Nagao, and H.~Kano.
+\newblock A novel nonvolatile memory with spin torque transfer magnetization
+  switching: spin-ram.
+\newblock In {\em Proc. International Electron Device Meeting Tech. Dig.},
+  pages 459 -- 462, 2005.
+
+\bibitem{Motoyoshi04}
+M.~Motoyoshi, I.~Yamamura, W.~Ohtsuka, M.~Shouji, H.~Yamagishi, M.~Nakamura,
+  H.~Yamada, K.~Tai, T.~Kikutani, T.~Sagara, K.~Moriyama, H.~Mori, C.~Fukamoto,
+  M.~Watanabe, R.~Hachino, H.~Kano, K.~Bessho, H.~Narisawa, M.~Hosomi, and
+  N.~Okazaki.
+\newblock A study for 0.18um high-density mram.
+\newblock In {\em IEEE VLSI Symposium on Technology}, pages 22 -- 23, 2004.
+
+\bibitem{Ha04}
+Y.K. Ha, J.E. Lee, H.-J. Kim, J.S. Bae, S.C. Oh, K.T. Nam, S.O. Park, N.I. Lee,
+  H.K. Kang, U.-I. Chung, and J.T. Moon.
+\newblock Mram with novel shaped cell using synthetic anti-ferromagnetic free
+  layer.
+\newblock In {\em VLSI Symposium on Technology}, pages 24 -- 25, 2004.
+
+\bibitem{Kawahara07}
+T.~Kawahara et~al.
+\newblock 2mb spin-transfer torque ram (spram) with bit-by-bit bidirectional
+  current write and parallelizing-direction current read.
+\newblock In {\em Proc. IEEE International Solid-State Circuits Conference,
+  Tech. Dig}, pages 480 -- 617, 2007.
+
+\bibitem{Nebashi09}
+H.~Honjo S. Saito Y. Ito S. Miura Y. Kato K. Mori Y. Ozaki Y. Kobayashi N.
+  Ohshima K. Kinoshita T. Suzuki K. Nagahara N. Ishiwata K. Suemitsu S. Fukami
+  H. Hada T.~Sugibayashi R.~Nebashi, N.~Sakimura and N.~Kasai.
+\newblock A 90nm 12ns 32mb 2t1mtj mram.
+\newblock In {\em IEEE International Solid-State Circuits Conference (ISSCC)},
+  pages 462--463, 2009.
+
+\bibitem{Andre05}
+T.~W. Andre, J.~J. Nahas, C.~K. Subramanian, B.~J. Garni, H.~S. Lin, A.~Omair,
+  and Jr. W.~L.~Martino.
+\newblock A 4-{M}b 0.18-$\mu$m {1T1MTJ} toggle {MRAM} with balanced three input
+  sensing scheme and locally mirrored unidirectional write drivers.
+\newblock {\em IEEE Jour. Of Solid-State Circuits}, 40(1):301--309, 2005.
+
+\bibitem{Kawahara08}
+T.~Kawahara, R.~Takemura, K.~Miura, J.~Hayakawa, S.~Ikeda, Y.~M. Lee,
+  R.~Sasaki, Y.~Goto, K.~Ito, T.~Meguro, F.~Matsukura, H.~Takahashi,
+  H.~Matsuoka, and H.~Ohno.
+\newblock 2 {M}b {SPRAM} ({SP}in-transfer torque {RAM}) with bit-by-bit
+  bi-directional current write and parallelizing-direction current read.
+\newblock {\em IEEE Jour. of Solid-State Circuits}, 43(1):109--120, 2008.
+
+\bibitem{Bedeschi09}
+Ferdinando Bedeschi, Rich Fackenthal, Claudio Resta, Enzo Michele
+  Donz¨¨and~Meenatchi Jagasivamani, Egidio~Cassiodoro Buda, Fabio Pellizzer,
+  David~W. Chow, Alessandro Cabrini, Giacomo Matteo~Angelo Calvi, Roberto
+  Faravelli, Andrea Fantini, Guido Torelli, Duane Mills, Roberto Gastaldi, and
+  Giulio Casagrande.
+\newblock {A Bipolar-Selected Phase Change Memory Featuring Multi-Level Cell
+  Storage}.
+\newblock {\em IEEE Journal of Solid-State Circuits}, 44(1):217--227, 2009.
+
+\bibitem{Oh06}
+J.~H. Oh, J.~H. Park, Y.~S. Lim, H.~S. Lim, Y.~T. Oh, J.~S. Kim, J.~M. Shin,
+  and et~al.
+\newblock Full integration of highly manufacturable 512mb pram based on 90nm
+  technology.
+\newblock In {\em Proceedings of the IEEE International Electron Devices
+  Meeting}, pages 2.6.1--2.6.4, 2006.
+
+\bibitem{Pirovano03}
+A.~Pirovano, A.~L. Lacaita, A.~Benvenuti, F.~Pellizzer, S.~Hudgens, , and
+  R.~Bez.
+\newblock Scaling analysis of phase-change memory technology.
+\newblock In {\em Proceedings of the IEEE International Electron Devices
+  Meeting}, pages 29.6.1--29.6.4, 2003.
+
+\bibitem{Lai03}
+S.~Lai.
+\newblock Current status of the phase change memory and its future.
+\newblock In {\em Proceedings of the IEEE International Electron Devices
+  Meeting}, pages 10.1.1--10.1.4, 2003.
+
+\bibitem{Chen06}
+Y.~C. Chen, C.~T. Rettner, S.~Raoux, G.~W. Burr, S.~H. Chen, R.~M. Shelby,
+  M.~Salinga, and et~al.
+\newblock Ultra-thin phase-change bridge memory device using gesb.
+\newblock In {\em Proceedings of the IEEE International Electron Devices
+  Meeting}, pages 30.3.1--30.3.4, 2006.
+
+\bibitem{Cho05}
+S.L.~Cho et~al.
+\newblock Highly scalable on-axis confined cell structure for high density pram
+  beyond 256mb.
+\newblock In {\em Symposium on VLSI Technology Digest of Technical Papers},
+  pages 96--97, 2005.
+
+\bibitem{Kim06}
+H.-S. P.~Wong S.~Kim.
+\newblock Generalized phase change memory scaling rule analysis.
+\newblock In {\em Non-Volatile Semiconductor Memory Workshop}, 2006.
+
+\bibitem{Lai01}
+T.~Lowrey S.~Lai.
+\newblock Oum - a 180nm nonvolatile memory cell element technology for
+  standalone and embedded applications.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  36.5.1--36.5.4, 2001.
+
+\bibitem{Raoux08}
+S.~Raoux, G.~W. Burr, M.~J. Breitwisch, C.~T. Rettner, Y.-C.Chen, R.~M. Shelby,
+  M.~Salinga, and et~al.
+\newblock Phase-change random access memory: A scalable technology.
+\newblock In {\em IBM Journal Research and Device}, volume~52, 2008.
+
+\bibitem{Nirshl07}
+T.~D. Happ G. W. Burr B. Rajendran M. H. Lee A. Schrott M. Yang M. Breitwisch
+  C. F. Chen E. Joseph M. Lamorey R. Cheek S. H. Chen S. Zaidi S. Raoux Y. C.
+  Chen Y. Zhu R. Bergmann H. L.~Lung T.~Nirschl, J. B.~Phipp and C.~Lam.
+\newblock Write strategies for 2 and 4-bit multi-level phase-change memory.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  461--464, 2007.
+
+\bibitem{Chen07-iedm}
+D.~S. Chao Y. C. Chen F. Chen C. W. Chen R. Yen M. J. Chen W. H. Wang T. C.
+  Hsiao J. T. Yeh S. H. Chiou M. Y. Liu T. C. Wang L. L. Chein C. Huang N. T.
+  Shih L. S. Tu D. Huang T. H. Yu M. J.~Kao W.~S.~Chen, C.~Lee and M.~J. Tsai.
+\newblock A novel cross-spacer phase change memory with ultra-small lithography
+  independent contact area.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  319--322, 2007.
+
+\bibitem{Im08}
+S.~L. Cho H. G. An D. H. Kim I. S. Kim H. Park D. H. Ahn H. Horii S. O. Park U.
+  I.~Chung D.~H.~Im, J. I.~Lee and J.~T. Moon.
+\newblock A unified 7.5nm dash-type confined cell for high performance pram
+  device.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  1--4, 2008.
+
+\bibitem{Hanzawa07}
+K.~Osada A. Kotabe Y. Matsui N. Matsuzaki N. Takaura M. Moniwa T.~Kawahara
+  S.~Hanzawa, N.~Kitai.
+\newblock A 512kb embedded pram with 416kb\/s write throughput at 100$\mu$a
+  cell write current.
+\newblock In {\em IEEE International Solid-State Circuits Conference (ISSCC)},
+  page 26.2, 2007.
+
+\bibitem{Lee07-isscc}
+W-Y. Cho S. Kang B-G. Choi H-R. Oh C-S. Lee H-J. Kim J-M. Park Q. Wang M-H.
+  Park Y-H. Ro J-Y. Choi K-S. Kim Y-R. Kim W-R. Chung H-K. Cho K-W. Lim C-H.
+  Choi I-C. Shin D-E. Kim K-S. Yu C-K. Kwak C-H.~Kim K-J.~Lee, B.~Cho.
+\newblock A 90nm 1.8v 512mb diode-switch pram with 266mb/s read throughput.
+\newblock In {\em IEEE International Solid-State Circuits Conference (ISSCC)},
+  page 26.1, 2007.
+
+\bibitem{Bedeschi08}
+C.~Resta-E. Donze M. Jagasivamani E. Buda F. Pellizzer-D. Chow A. Fantini A.
+  Calibrini-G. Calvi R. Faravelli G. Torelli D. Mills-R. Gastaldi G.~Casagrande
+  F.~Bedeschi, R.~Fackenthal.
+\newblock A multi-level-cell bipolar-selected phase-change memory.
+\newblock In {\em IEEE International Solid-State Circuits Conference (ISSCC)},
+  page 23.5, 2008.
+
+\bibitem{Sandre10}
+A.~Pirola L. Marmonier M. Pasotti M. Borghi P. Mattavelli P. Zuliani1 L. Scotti
+  G. Mastracchio F. Bedeschi R. Gastaldi R.~Bez G.~De~Sandre, L.~Bettini.
+\newblock A 90nm 4mb embedded phase-change memory with 1.2v 12ns read access
+  time and 1mb/s write throughput.
+\newblock In {\em IEEE International Solid-State Circuits Conference (ISSCC)},
+  page 14.7, 2010.
+
+\bibitem{Villa10}
+G.~Barkley H. Giduturi S. Schippers D.~Vimercati C.~Villa, D.~Mills.
+\newblock A 45nm 1gb 1.8v phase-change memory.
+\newblock In {\em IEEE International Solid-State Circuits Conference (ISSCC)},
+  page 14.8, 2010.
+
+\bibitem{Chua71}
+L.~O. Chua.
+\newblock Memristor - the missing circuit element.
+\newblock In {\em IEEE Trans. Circuit Theory}, volume CT-18, pages 507--519,
+  1971.
+
+\bibitem{Tour08}
+J.~M. Tour and T.~He.
+\newblock The fourth element.
+\newblock In {\em Nature}, volume 453, pages 42--43, 2008.
+
+\bibitem{Strukov08}
+Dmitri~B. Strukov, Gregory~S. Snider, Duncan~R. Stewart, and
+  R.~StanleyWilliams.
+\newblock The missing memristor found.
+\newblock In {\em Nature}, volume 453, pages 80--83, 2008.
+
+\bibitem{Chua76}
+L.~O. Chua.
+\newblock Memristive devices and systems.
+\newblock In {\em Proc. IEEE}, volume~64, pages 209--223, 1976.
+
+\bibitem{Pershin08}
+Yu.~V. Pershin and M.~Di Ventra.
+\newblock Spin memristive systems: Spin memory effects in semiconductor
+  spintronics.
+\newblock In {\em Phys. Rev. B, Condens. Matter}, volume~78, page 113309, 2008.
+
+\bibitem{Wang09}
+X.~Wang et~al.
+\newblock Spin memristor through spin-torque-induced magnetization motion.
+\newblock In {\em IEEE Electron Device Lett.}, volume~30, pages 294--297, 2009.
+
+\bibitem{Chen09}
+Y.~Chen and X.~Wang.
+\newblock Compact modeling and corner analysis of spintronic memristor.
+\newblock In {\em IEEE/ACM International Symposium on Nanoscale Architectures
+  2009 (Nanoarchï¿½09)}, pages 7--12, 2009.
+
+\bibitem{DRAMsim}
+David Wang, Brinda Ganesh, Nuengwong Tuaycharoen, Katie Baynes, Aamer Jaleel,
+  and Bruce Jacob.
+\newblock {DRAMsim: A memory-system simulator}.
+\newblock {\em SIGARCH Computer Architecture News}, 33(4):100--107, 2005.
+
+\bibitem{Chen08}
+Y.~Chen, X.~Wang, H.~Li, H.~Liu, and D.~Dimitrov.
+\newblock Design margin exploration of spin-torque transfer ram (spram).
+\newblock In {\em International Symposium on Quality Electronic Design}, pages
+  684--690, 2008.
+
+\bibitem{synopsys}
+{http://www.synopsys.com}.
+
+\bibitem{Spectrum09}
+Spintronic memristors,
+  http://www.spectrum.ieee.org/semiconductors/devices/spintronic-memristors/0.
+
+\bibitem{Lee09}
+Benjamin Lee, Engin Ipek, Onur Mutlu, and Doug Burger.
+\newblock Architecting phase change memory as a scalable {DRAM} alternative.
+\newblock In {\em The 36th International Symposium on Computer Architecture
+  (ISCA)}, 2009.
+
+\bibitem{Diao07}
+Z.~Diao, Z.~Li, S.~Wang, Y.~Ding, A.~Panchula, E.~Chen, L.-C. Wang, and
+  Y.~Huai.
+\newblock Spin-transfer torque switching in magnetic tunnel junctions and
+  spin-transfer torque random access memory.
+\newblock {\em Journal of Physics: Condensed matter}, 19(16):165209, 2007.
+
+\bibitem{Zhou09}
+Ping Zhou, Bo~Zhao, Jun Yang, and Youtao Zhang.
+\newblock A durable and energy efficient main memory using phase change memory
+  technology.
+\newblock In {\em The 36th International Symposium on Computer Architecture},
+  2009.
+
+\bibitem{Park04}
+Jong-Ho Park, Sung-Hoi Hur, Joon-Hee Leex, Jin-Taek Park, Jong-Sun Sel,
+  Jong-Won Kim, Sang-Bin Song, Jung-Young Lee, Ji-Hwon Lee, Suk-Joon Son,
+  Yong-Seok Kim, Min-Cheol Park, Soo-Jin Chai, Jung-Dal Choi, U.~In Chung,
+  Joo-Tae Moon, Kyeong-Tae Kim, Kinam Kim, and Byung-Il Ryu.
+\newblock 8 {G}b {MLC} (multi-level cell) {NAND} flash memory using 63 nm
+  process technology.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  876 -- 876, 2004.
+
+\bibitem{Lou08}
+X.~Lou, Z.~Gao, D.~V. Dimitrov, and M.~X. Tang.
+\newblock Demonstration of multilevel cell spin transfer switching in mgo
+  magnetic tunnel junctions.
+\newblock {\em Applied Physics Letter}, 93:242502, 2008.
+
+\bibitem{Baek05}
+I.G. Baek, D.C. Kim, M.J. Lee, H.J. Kim, E.K. Yim, M.S. Lee, J.E. Lee, S.E.
+  Ahn, S.~Seo, J.H. Lee, J.C. Park, Y.K. Cha, S.O. Park, H.S. Kim, I.K. Yoo,
+  U.In Chung, J.T. Moon, and B.I. Ryu.
+\newblock Multi-layer cross-point binary oxide resistive memory ({O}x{RRAM})
+  for post-{NAND} storage application.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  750 -- 753, 2005.
+
+\bibitem{Asenov03}
+A.~Asenov, S.~Kaya, and A.R. Brown.
+\newblock Intrinsic parameter fluctuations in decananometer mosfets introduced
+  by gate line edge roughness.
+\newblock {\em IEEE Transactions on Electron Devices}, 50:1254 -- 1260, 2003.
+
+\bibitem{Tehrani00}
+S.~Tehrani et~al.
+\newblock Recent developments in magnetic tunnel junction mram.
+\newblock In {\em IEEE Trans. Magn.}, volume~36, pages 2752--2757, 2000.
+
+\bibitem{Li09}
+H.~Li and Y.~Chen.
+\newblock An overview of nonvolatile memory technology and the implication for
+  tools and architectures.
+\newblock In {\em Design, Automation and Test in Europe Conference and
+  Exhibition}, pages 731--736, 2009.
+
+\bibitem{Jeong03}
+Gitae Jeong, Wooyoung Cho, S.~Ahn, Hongsik Jeong, Gwanhyeob Koh, Youngnam
+  Hwang, and K.~Kim.
+\newblock A 0.24$\mu$m 2.0-{V} 1{T}1{MTJ} 16-kb nonvolatile magnetoresistance
+  {RAM} with self-reference sensing scheme.
+\newblock In {\em IEEE Jour. of Solid-State Circuits}, volume~38, pages
+  1906--1910, 2003.
+
+\bibitem{Tanizaki06}
+H.~Tanizaki.
+\newblock A high-density and high-speed 1t-4mtj mram with voltage offset
+  self-reference sensing scheme.
+\newblock In {\em Proc. IEEE Asian Solid-State Circuits Conference}, pages 303
+  -- 306, 2006.
+
+\bibitem{Li:147723}
+Spin-transfer torque memory self-reference read scheme.
+
+\bibitem{Lu09}
+Chih-Yuan Lu, Kuang-Yeu Hsieh, and Rich Liu.
+\newblock Future challenges of flash memory technologies.
+\newblock {\em Microelectronic Engineering}, 86(3):283--286, 2009.
+
+\bibitem{Yan4430255}
+Non-ohmic device using tio2.
+
+\bibitem{Sun:147791}
+Magic pmc switch fabrication method and its application as selective element
+  for high density cross bar memory arrays.
+
+\bibitem{Kozicki05}
+M.N. Kozicki, M.~Balakrishnan, C.~Gopalan, C.~Ratnakumar, and Mitkova.
+\newblock Programmable metallization cell memory based on ag-ge-s and cu-ge-s
+  solid electrolytes.
+\newblock In {\em Non-Volatile Memory Technology Symp.}, pages 83--89, 2005.
+
+\bibitem{Chen:147727}
+Spin-transfer torque memory non-destructive self-reference read.
+
+\bibitem{Lacaita07}
+A.~L. Lacaita and D.~Ielmini.
+\newblock Reliability issues and scaling projections for phase change non
+  volatile memories.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  157--160, 2007.
+
+\bibitem{Shih08}
+B.~Rajendran M. H. Lee R. Cheek M. Lamorey M. Breitwisch Y. Zhu E. K. Lai C. F.
+  Chen E. Stinzianni A. Schrott E. Joseph R. Dasaka S. Raoux H. L.~Lung
+  Y.~H.~Shih, J. Y.~Wu and C.~Lam.
+\newblock Mechanisms of retention loss in
+  ge<inf>2</inf>sb<inf>2</inf>te<inf>5</inf>-based phase-change memory.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  1--4, 2008.
+
+\bibitem{Lavizzari08}
+D.~Sharma S.~Lavizzari, D.~Ielmini and A.~L. Lacaita.
+\newblock Transient effects of delay, switching and recovery in phase change
+  memory (pcm) devices.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  1--4, 2008.
+
+\bibitem{Ielmini07}
+D.~Sharma D.~Ielmini, S.~Lavizzari and A.~L. Lacaita.
+\newblock Physical interpretation, modeling and impact on phase change memory
+  (pcm) reliability of resistance drift due to chalcogenide structural
+  relaxation.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  939--942, 2007.
+
+\bibitem{Fantini08}
+A.~Calderoni L. Larcher P.~Pavan P.~Fantini, G. Betti~Beneventi and
+  F.~Pellizzer.
+\newblock Characterization and modelling of low-frequency noise in pcm devices.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  1--4, 2008.
+
+\bibitem{Mantegazza07}
+E.~Varesi A.~Pirovano D.~Mantegazza, D.~Ielmini and A.~L. Lacaita.
+\newblock Statistical analysis and modeling of programming and retention in pcm
+  arrays.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  311--314, 2007.
+
+\bibitem{Zhang07}
+Y.~Zhang et~al.
+\newblock An intergrated phase change memory cell with ge nanowire diode for
+  cross-point memory.
+\newblock In {\em Proc. of Symposium on VLSI Technology Digest of Technical
+  Papers}, 2007.
+
+\bibitem{Salahuddin07}
+P.~Srivastava S.~Salahuddin, D.~Datta and S.~Datta.
+\newblock Quantum transport simulation of tunneling based spin torque transfer
+  (stt) devices: Design trade offs and torque efficiency.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  121--124, 2007.
+
+\bibitem{Beach08}
+C.~Horng Q. Chen P. Sherman S. Le S. Young K. Yang H. Yu X. Lu W. Kula T. Zhong
+  R. Xiao A. Zhong G. Liu J. Kan J. Yuan J. Chen R. Tong J. Chien-T. Torng D.
+  Tang P. Wang-M. Chen S. Assefa M. Qazi-J. DeBrosse M. Gaidis S.
+  Kanakasabapathy-Y. Lu J. Nowak E. O'Sullivan-T. Maffitt J. Z.~Sun R.~Beach,
+  T.~Min and W.~J. Gallagher.
+\newblock A statistical study of magnetic tunnel junctions for high-density
+  spin torque transfer-mram (stt-mram).
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  1--4, 2008.
+
+\bibitem{Kishi08}
+T.~Kai T. Nagase E. Kitagawa M. Yoshikawa K. Nishiyama T. Daibou M. Nagamine M.
+  Amano S. Takahashi M. Nakayama N. Shimomura H. Aikawa S. Ikegawa S. Yuasa K.
+  Yakushiji H. Kubota A. Fukushima M. Oogane-T.~Miyazaki T.~Kishi, H.~Yoda and
+  K.~Ando.
+\newblock Lower-current and fast switching of a perpendicular tmr for high
+  speed and high density spin-transfer-torque mram.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  1--4, 2008.
+
+\bibitem{Miura07}
+K.~Miura, T.~Kawahara, R.~Takemura, J.~Hayakawa, S.~Ikeda, R.~Sasaki,
+  H.~Takahashi, H.~Matsuoka, and H.~Ohno.
+\newblock A novel {SPRAM} ({SP}in-transfer torque {RAM}) with a synthetic
+  ferrimagnetic free layer for higher immunity to read disturbance and reducing
+  write-current dispersion.
+\newblock In {\em IEEE VLSI Symposium on Technology}, pages 234 -- 235, 2007.
+
+\bibitem{Durlam03}
+M.~Durlam, P.~J. Naji, A.~Omair, M.~DeHerrera, J.~Calder, J.~M. Slaughter,
+  B.~N. Engel, N.~D. Rizzo, G.~Grynkewich, B.~Butcher, C.~Tracy, K.~Smith,
+  K.~W. Kyler, J.~J. Ren, J.~A. Molla, W.~A. Feil, R.~G. Williams, and
+  S.~Tehrani.
+\newblock {A 1-Mbit MRAM based on 1T1MTJ bit cell integrated with copper
+  interconnects}.
+\newblock {\em IEEE Journal of Solid-State Circuits}, 38(5):769--773, 2003.
+
+\bibitem{Wang07}
+W.~Wang and Z.~Jiang.
+\newblock Magnetic content addressable memory.
+\newblock {\em IEEE Trans. on Magnetics}, 43(6):2355--2357, June 2007.
+
+\bibitem{Xu08}
+W.~Xu, T.~Zhang, and Y.~Chen.
+\newblock Spin-transfer torque magnetoresistive content addressable memory
+  (cam) cell structure design with enhanced search noise margin.
+\newblock In {\em IEEE Int. Symp. on Circuits and Systems (ISCAS)}, pages
+  1898--1901, 2008.
+
+\bibitem{Sekikawa08}
+H.~Hasegawa K. Miura T. Fukushima S. Ikeda T. Tanaka H.~Ohno M.~Sekikawa,
+  K.~Kiyoyama and M.~Koyanagi.
+\newblock A novel spram (spin-transfer torque ram)-based reconfigurable logic
+  block for 3d-stacked reconfigurable spin processor.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  1--3, 2008.
+
+\bibitem{Su08}
+C.-L. Su, C.-W. Tsai, C.-W. Wu, C.-C. Hung, Y.-S. Chen, D.-Y. Wang, Y.-J. Lee,
+  and M.-J. Kao.
+\newblock {Write Disturbance Modeling and Testing for MRAM}.
+\newblock {\em IEEE Transactions on Very Large Scale Integration (VLSI)
+  Systems}, 16(3):277--288, 2008.
+
+\bibitem{Desikan02}
+R.~Desikan, C.~R. Lefurgy, S.~W. Keckler, and D.~Burger.
+\newblock On-chip {MRAM} as a high-bandwidth low-latency replacement for {DRAM}
+  physical memories.
+\newblock http://www.cs.utexas.edu/ftp/pub/techreports/tr02-47.pdf, 2002.
+
+\bibitem{Sun09}
+Y.~Xie J.~Li G.~Sun, X.~Dong and Y.~Chen.
+\newblock A novel architecture of the 3d stacked mram l2 cache for cmps.
+\newblock In {\em 14th International Symposium on High-Performance Computer
+  Architecture (HPCA)}, pages 239--249, 2009.
+
+\end{thebibliography}
