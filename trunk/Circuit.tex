@@ -1,9 +1,9 @@
 
-\section{Task 2: Explore novel circuit techniques for NVM}
+\subsection{Explore novel circuit techniques for NVM}
 
 The advent of novel materials and devices have introduced a number of new design issues. On one hand, all types of emerging NVM technologies are facing to the common requirements -- fast speed, high density, affordable yield, low power, etc. On the other hand, the primary concern and effective solution could be quite different for each NVM technique because of the specific device characteristic and process integration difficulty. Our task here is to investigate the common design issues and to exploit distinctive circuit techniques for each individual emerging NVM technology. More specifically, we will focus on three main issues in memory design -- yield, reliability, and density.
 
-\subsection{Write Endurance Improvement}
+\subsubsection{Write Endurance Improvement}
 
 Write endurance is one of the biggest obstacles that prevent the emerging NVMs from massive production and wide application, although the physical mechanisms behind for various emerging NVMs are different. For PCRAM, writing is the primary wear mechanism: when injecting current into a volume of phase change material, thermal expansion and contraction degrades the electrode-storage contact~\cite{Lee09}. While in MRAM, the cell damage during write operations mainly is triggered by particles and pin-holes introduced in process integration.  Write endurance is usually measured as the number of writes performed before the cell cannot be programmed reliably. SRAM and DRAM both have endurance of about $10^{16}$ programming cycles~\cite{ITRS07}, which are sufficient for use even in high-performance processing. The best reported write endurance for PCRAM, however, is only 10$^9$ based on a survey of PCRAM device and circuit prototypes published within the last five years~\cite{Lee09}. And the best endurance test result of STT-RAM is less than $4\times10^{12}$ programming cycles~\cite{Diao07}.
 
@@ -20,11 +20,11 @@ Multi-level cell (MLC) can effectively improve the integration density of memory
 Figure~\ref{mlc-tran} shows the transition distribution between the different logic values of 2-bit MLC in an in-order microarchitecture. We noticed that most of transitions occur between the same values, and hence, there is no need to change resistance state at all. Therefore, ``write-after-read'' scheme, which conducts only the necessary transitions based on the values of the new data being written and the original data stored in the MLC bit, could be the most efficient way for energy saving and lifetime improvement. Furthermore, we observe that the resistance switching in MLC need follow specific sequence. For example, the free layer of the MTJ in an MLC MRAM has two magnetic domains whose magnetization directions can be switched separately. The magnetization direction of \emph{soft domain} can be switched alone by a small current, while that of \emph{hard domain} can be switched by only a large current which is always associated with the magnetization direction switching of soft domain. Corresponding to the four resistance states -- $R00$, $R01$, $R10$, and $R11$ from low to high, an MLC MRAM cell may have total of $4! = 24$ encoding schemes for its four logic states -- $L00$, $L01$, $L10$, and $L11$. As we stated above that the probability of MTJ breakdown has an exponential relationship with the current amplitude through it, the hard domain switching can induce more damage on MTJ material than the soft domain switching. Properly selecting the encoding scheme of logic vs. physical states to reduce the hard domain switches based on the transition distributions can further improve the write endurance and lifetime of MLC MRAM.
 
 
-\subsection{Process Variation-Tolerant Design}
+\subsubsection{Process Variation-Tolerant Design}
 
 As the process technology scales, device parameter fluctuations induced by process variations such as line-edge roughnesses (LERs) and oxide thickness fluctuations (OTFs) have become critical issues in affecting the performance of devices~\cite{Asenov03}. Similar to any other memory manufactured in the scaled technologies, emerging nonvolatile memories also suffer from the large process variation. For example, MTJ resistance increases exponentially with the thickness of oxide barrier between two magnetic layers. It was reported in~\cite{Tehrani00} that MTJ resistance increases by 8\% when the thickness of oxide barrier changes from 14${\AA}$ to 14.1${\AA}$. Moreover, the MTJ resistance variation will be aggravated by the further reduction of oxide barrier thickness in scaled technologies. Besides oxide barrier thickness, MTJ resistance is also significantly affected by the large MTJ geometry variations.
 
-\subsubsection{Read Failure}
+\paragraph{Read Failure}
 %Strictly speaking,
 Most of the emerging NVM technologies, e.g., MRAM and PCRAM, use device resistance as the data storage media. \textbf{Figure xxx(a)} illustrates a conventional voltage sensing scheme: Comparing the bit line voltage $V_{BL}$ generated by the selected memory cell with a reference signal $V_{REF}$ produced by the dummy cell. Ideally the resistance of the dummy cell should be set in the middle of the high and low resistance states ($R_H$ and $R_L$) of the selected memory cell. When $V_{BL}$ is higher than $V_{REF}$, the data storage device in the memory cell is in $R_H$ state, and vice versa. Usually a dummy cell is shared by multiple memory bits to reduce overhead. In reality, process variation incurs the resistance distribution of data storage device in memory cell as well as the dummy cell. As illustrated \textbf{Figure xxx(b)}, when the resistance variation $\sigma_R$ is large, the tails of $R_H$ or/and $R_L$ could be overlapped with $R_{dummy}$ and lead to the false detection of the stored value. We called it as \textbf{\emph{Read Failure}}.
 
@@ -42,25 +42,25 @@ In this project, we will work on a \textbf{\textit{non-destructive self-referenc
 
 However, there are some uncertainties to realize this approach. For example, how much is the sensing margin in the new read-out scheme after considering process variations? What type of sensing circuitry is more optimal? Will a new sense-amplifier (SA) design be necessary? How does it impact memory array structure? How much yield improvement can be achieved with the new scheme? Will this scheme be still valid when technology further scales down? In this proposal we will investigate these issues and exploring the solutions. Our target is to minimize the effect of process variation and to improve read speed.
 
-\subsubsection{dopant drifting in Memristor, read window change???}
+\paragraph{dopant drifting in Memristor, read window change???}
 \textbf{\underline{HL: Add new section here.}}
 Process has more impacts on memristor-based design, especially when memristor is used for a continuous data storage and detection.
 
 
-\subsection{Density Enhancement}
+\subsubsection{Density Enhancement}
 
 Memory density is directly related to its capacity, and hence, reducing memory cell size and increasing density becomes an ultimate goal. In the past, technology scaling is always the biggest driving force to reduce single memory cell size by decreasing the pattern on chip. Process development plays an important role as well. For example, the charge storage materials of NAND Flash have gone through several generations to continue its scalability: from standard double polysilicon gate, to Silicon-Oxide-Nitride-Oxide-Silicon (SONOS), to bandgap engineered SONOS, and to TaN/Al$_2$O$_3$/SiN/SiO$_2$ (TaNOS)~\cite{Lu09}. The emerge of new NVMs is another good example to show the power of technology. On top of it, we should note that cell structure and circuit design technique can also constraint or boost memory density.
 
-\subsubsection{MRAM and PCRAM}
+\paragraph{MRAM and PCRAM}
 
-In a random access memory cell, usually an NMOS transistor is used as selection device (e.g. DRAM, MRAM and PCRAM) by connecting it in series with the data storage element. Such a cell structure needs three sets of terminals -- word line (WL), bit line (BL) and source line (SL). The routing requirement and design rules determine that the minimal possible cell size is 12$F^2$~\cite{Li09}. Here, $F$ represents the technology feature size. 
+In a random access memory cell, usually an NMOS transistor is used as selection device (e.g. DRAM, MRAM and PCRAM) by connecting it in series with the data storage element. Such a cell structure needs three sets of terminals -- word line (WL), bit line (BL) and source line (SL). The routing requirement and design rules determine that the minimal possible cell size is 12$F^2$~\cite{Li09}. Here, $F$ represents the technology feature size.
 
 The real memory size is also determined by ...
 The real cell size could grow when the storage device cannot fit into it or the select transistor need serve as driving device too.
 
 
 
-\subsubsection{RRAM and Memristor}
+\paragraph{RRAM and Memristor}
 
 Theoretically, the smallest memory cell is 4$F^2$, which has only two terminals -- one is horizonal (WL) and another is vertical (BL). The storage element is built at the cross-point of two metal wires, so it is called cross-point structure. RRAM can support data access in this structure by properly controlling the voltages applied on WL's and BL's. Moreover, the cross-point structure can grow in third dimension and forms an intra-die stacking structure. The memory storage cell is located in between any two adjacent metal layers which are used as interconnects. Within the same die size, the multiple memory layers further improve the memory density. Hence, RRAM is expected to replace NAND Flash memory as main storage in near future~\cite{ITRS07}.
 
@@ -102,6 +102,6 @@ The operations can be explained by using the corresponding I-V curves of the two
 Compared to diode or NOD, PMC based switch has two advantages -- bipolar switching and large $I_{on}$/$I_{off}$ ratio. Hence, the proposed scheme could be used in bipolar switching RRAM design with minimized sneak current. Although we have investigate the feasibility based on theoretical analysis, there are still a lot of unsolved issues. For example, how to control timing and applied voltage? What kind of peripheral circuitry floorplan will be optimal for the proposed RRAM design? And again, how will process variations affect the proposed RRAM scheme? In this project, we will address these circuit issues from both device and circuit point of views and explore the solutions.
 
 
-\subsection{Preliminary results and Collaborations:}
+\subsubsection{Preliminary results and Collaborations:}
 Previously, we have already successfully utilized the destructive self-reference scheme in STT-RAM design~\cite{Li:147723}. The feasibility of the non-destructive self-reference scheme has been also discussed and analyzed in theory~\cite{Chen:147727}.
 Add experience on SRAM design??
