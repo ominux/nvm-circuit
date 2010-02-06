@@ -353,13 +353,6 @@ S.~T. Hsu and T.~Li.
 \newblock Resistance random access memory switching mechanism.
 \newblock {\em Journal of Applied Physics}, 101(2):024517, 2007.
 
-\bibitem{Inoue}
-I.~H. Inoue, S.~Yasuda, H.~Akinaga, and H.~Takagi.
-\newblock Nonpolar resistance switching of metal/binary-transition-metal
-  oxides/metal sandwiches: Homogeneous/inhomogeneous transition of current
-  distribution.
-\newblock {\em Physical Review B}, 77(3):035105, 2008.
-
 \bibitem{Kozicki05}
 M.N. Kozicki, M.~Balakrishnan, C.~Gopalan, C.~Ratnakumar, and Mitkova.
 \newblock Programmable metallization cell memory based on {Ag-Ge-S and Cu-Ge-S}
@@ -367,15 +360,22 @@ M.N. Kozicki, M.~Balakrishnan, C.~Gopalan, C.~Ratnakumar, and Mitkova.
 \newblock In {\em Non-Volatile Memory Technology Symposium}, pages 83--89,
   2005.
 
+\bibitem{Inoue}
+I.~H. Inoue, S.~Yasuda, H.~Akinaga, and H.~Takagi.
+\newblock Nonpolar resistance switching of metal/binary-transition-metal
+  oxides/metal sandwiches: Homogeneous/inhomogeneous transition of current
+  distribution.
+\newblock {\em Physical Review B}, 77(3):035105, 2008.
+
 \bibitem{Chua71}
 L.~O. Chua.
 \newblock Memristor {--} the missing circuit element.
 \newblock {\em IEEE Trans. Circuit Theory}, CT-18(5):507--519, 1971.
 
-\bibitem{Chua76}
-L.~O. Chua.
-\newblock Memristive devices and systems.
-\newblock {\em Proc. IEEE}, 64:209--223, 1976.
+\bibitem{Tour08}
+J.~M. Tour and T.~He.
+\newblock The fourth element.
+\newblock {\em Nature}, 453(7191):42--43, 2008.
 
 \bibitem{Strukov08}
 Dmitri~B. Strukov, Gregory~S. Snider, Duncan~R. Stewart, and
@@ -383,10 +383,10 @@ Dmitri~B. Strukov, Gregory~S. Snider, Duncan~R. Stewart, and
 \newblock The missing memristor found.
 \newblock {\em Nature}, 453:80--83, 2008.
 
-\bibitem{Tour08}
-J.~M. Tour and T.~He.
-\newblock The fourth element.
-\newblock {\em Nature}, 453(7191):42--43, 2008.
+\bibitem{Chua76}
+L.~O. Chua.
+\newblock Memristive devices and systems.
+\newblock {\em Proc. IEEE}, 64:209--223, 1976.
 
 \bibitem{Pershin08}
 Yu.~V. Pershin and M.~Di Ventra.
@@ -404,6 +404,31 @@ Y.~Chen and X.~Wang.
 \newblock Compact modeling and corner analysis of spintronic memristor.
 \newblock In {\em IEEE/ACM International Symposium on Nanoscale Architectures
   2009 (Nanoarch09)}, pages 7--12, 2009.
+
+\bibitem{Johnson10}
+R.~C. Johnson.
+\newblock Superlattices enable small, fast, low-power rram.
+
+\bibitem{Balasubramanian09}
+Rabindranath Balasubramanian and Gregory Bakker.
+\newblock Programmable system on a chip for power-supply voltage and current
+  monitoring and control, 2009.
+\newblock {US Patent pending, application number 12/350,419}.
+
+\bibitem{Kwak09}
+Jongtae Kwak.
+\newblock Delay line circuit, 2009.
+\newblock {US Patent US 2009/0243689 A1}.
+
+\bibitem{LaPedus09}
+Mark LaPedus.
+\newblock Unity rolls `storageclass' memory technology, 2009.
+\newblock {http://www.eetimes.eu/217500737}.
+
+\bibitem{Johnson08}
+R.~Colin Johnson.
+\newblock Memristors ready for prime time, 2008.
+\newblock {http://www.eetimes.com/showArticle.jhtml?articleID=208803176}.
 
 \bibitem{MRAM:NEC09}
 R.~Hoding.
