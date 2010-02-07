@@ -1,8 +1,8 @@
 
-\subsection{Exploring Novel Circuit Techniques for NVMs}
+\section{Task 2: Circuit Techniques to Improve Reliability, Yield and Density}
 The advent of novel materials and devices have created many opportunities in circuit design. On one hand, the general requirements to all type of memories are similar -- high density, fast speed, low power, affordable yield and reliability, etc. On the other hand, every NVM technology faces different processor integration difficulties,  owns unique device characteristic, and targets on different market. Therefore, the primary concerns and the optimal solutions of different NVM chip designs are various. Our task here is to investigate the common design issues and to exploit distinctive circuit techniques for each individual emerging NVM technology. More specifically, we will focus on three main concerns in NVM design -- reliability, yield, and density.
 
-\subsubsection{Reliability Improvement}
+\subsection{Task 2.1: Reliability Improvement}
 Reliability is an important parameter in NVMs, which is usually evaluated by data retention and write endurance. While data retention is not a big issue for the emerging NVMs (see Figure~\ref{table}), write endurance becomes one of the biggest obstacles that prevent from massive production and commercialization. Write endurance is usually measured as the number of writes performed before the cell cannot be programmed reliably. SRAM and DRAM both have endurance of about $10^{16}$ programming cycles~\cite{ITRS07}, which are sufficient for use even in high-performance processors.
 
 For different emerging NVMs, the physical mechanisms to cause endurance issues are different. In PCRAM, writing is a primary wear mechanism: when injecting current into phase change material, thermal expansion and contraction degrades the electrode-storage contact~\cite{Lee09}. Based on a survey of PCRAM device and circuit prototypes published within the last five years, the best reported write endurance for PCRAM is 10$^9$ ~\cite{Lee09}. Theoretically MRAM should be able to be programmed $>10^{15}$ times~\cite{ITRS07} since its magnetic stack is similar to the one used in hard disk drive. Currently, the best test result of STT-RAM is $<4\times10^{12}$ programming cycles~\cite{Diao07} due to the particles and pin-holes introduced in process integration. In parallel to improving material and process development, circuit design techniques can help out in many ways.
@@ -34,7 +34,7 @@ Furthermore, let's name the four resistance states of a 2-bit MLC are $R00$, $R0
 
 Corresponding to the four resistance states, an MLC cell has total of $4! = 24$ encoding schemes for its four logic states. As we stated above that the breakdown probability of a NVM cell has an exponential relationship with the current amplitude through it, the damage to memory material has different weight when writing different data. Properly selecting the encoding scheme of logic vs. physical states based on the transition distributions can further improve the write endurance and lifetime of MLC NVM technologies. 
 
-\subsubsection{Yield Enhancement}
+\subsection{Task 2.2: Yield Enhancement}
 Higher defect rates and low yield are brought by the continuous shrinking of devices and the unlimited demand on higher densities. As technology enters into nanometer scale, device parameter fluctuations induced by process variations, such as line-edge roughnesses (LERs) and oxide thickness fluctuations (OTFs) have become critical issues~\cite{Asenov03}. Emerging non-volatile memories, which are among the densest circuits in systems, are greatly impacted by the large process variations. For example, MTJ resistance in MRAM increases exponentially with the thickness of oxide barrier between two magnetic layers. It was reported in~\cite{Tehrani00} that MTJ resistance increases by 8\% when the thickness of oxide barrier changes from 14${\AA}$ to 14.1${\AA}$. In the program, we propose to overcome the impact of process variations and to enhance yield with the aid of the unique device characteristics of NVMs.
 
 \squishlist \item {\textbf{MRAM: Non-Destructive Self-Reference Technology}} \squishend
@@ -64,7 +64,7 @@ There are some uncertainties to realize this approach. For example, how much is 
 Process has more impacts on memristor-based design, especially when memristor is used for a continuous data storage and detection.
 
 
-\subsubsection{Density Enhancement}
+\subsection{Task 2.3: Density Enhancement}
 
 Memory density is directly related to its capacity, and hence, reducing memory cell size and increasing density becomes an ultimate goal. In the past, technology scaling is always the biggest driving force to reduce single memory cell size by decreasing the pattern on chip. Process development plays an important role as well. For example, the charge storage materials of NAND Flash have gone through several generations to continue its scalability: from standard double polysilicon gate, to Silicon-Oxide-Nitride-Oxide-Silicon (SONOS), to bandgap engineered SONOS, and to TaN/Al$_2$O$_3$/SiN/SiO$_2$ (TaNOS)~\cite{Lu09}. The emerge of new NVMs is another good example to show the power of technology. On top of it, we should note that cell structure and circuit design technique can also constraint or boost memory density.
 
