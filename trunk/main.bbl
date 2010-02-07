@@ -455,56 +455,11 @@ Xiangyu Dong, Xiaoxia Wu, Guangyu Sun, Yuan Xie, Hai Li, and Yiran Chen.
 \newblock In {\em 45th ACM/IEEE Design Automation Conference (DAC)}, pages
   554--559, 2008.
 
-\bibitem{synopsys}
-{http://www.synopsys.com}.
-
-\bibitem{Spectrum09}
-Spintronic memristors,
-  http://www.spectrum.ieee.org/semiconductors/devices/spintronic-memristors/0.
-
-\bibitem{xie:iccd05-3d}
-Yuh-Fang Tsai, Yuan Xie, N.~Vijaykrishnan, and M.~J. Irwin.
-\newblock Three-dimensional cache design exploration using 3dcacti.
-\newblock In {\em International Conference on Computer Design (ICCD)}, pages
-  519--524, 2005.
-
-\bibitem{XIE:TVLSI2008-3DCacti}
-Yuh-Fang Tsai, Feng Wang, Yuan Xie, N.~Vijaykrishnan, and M.~J. Irwin.
-\newblock Design space exploration for 3-d cache.
-\newblock {\em IEEE Transactions on Very Large Scale Integration (VLSI)
-  Systems}, 16(4):444--455, 2008.
-
-\bibitem{XIE:HPCA09}
-Guangyu Sun, Xiangyu Dong, Yuan Xie, Jian Li, and Yiran Chen.
-\newblock A novel architecture of the 3d stacked mram l2 cache for cmps.
-\newblock In {\em IEEE 15th International Symposium on High Performance
-  Computer Architecture, 2009.}, pages 239--249, 2009.
-
-\bibitem{xie:pcramsim}
-Xiangyu Dong, Norm Jouppi, and Yuan Xie.
-\newblock Pcramsim: System-level performance, energy, and area modeling for
-  phase-change ram.
-\newblock In {\em Proceedings of International Conference on Computer-Aided
-  Design (ICCAD)}, pages 269--275, 2009.
-
 \bibitem{Lee09}
 Benjamin Lee, Engin Ipek, Onur Mutlu, and Doug Burger.
 \newblock Architecting phase change memory as a scalable {DRAM} alternative.
 \newblock In {\em The 36th International Symposium on Computer Architecture
   (ISCA)}, 2009.
-
-\bibitem{PRAM:Microsoft}
-Benjamin~C. Lee, Engin Ipek, Onur Mutlu, and Doug Burger.
-\newblock {Architecting Phase Change Memory as a Scalable DRAM Alternative}.
-\newblock In {\em Computer Architecture, 2009. ISCA '09. 36th International
-  Symposium on}, 2009.
-
-\bibitem{PRAM:IBM}
-Moinuddin~K. Qureshi, Viji Srinivasan, and Jude~A. Rivers.
-\newblock {Scalable High Performance Main Memory System Using Phase-Change
-  Memory Technology}.
-\newblock In {\em Computer Architecture, 2009. ISCA '09. 36th International
-  Symposium on}, 2009.
 
 \bibitem{Park04}
 Jong-Ho Park, Sung-Hoi Hur, Joon-Hee Leex, Jin-Taek Park, Jong-Sun Sel,
@@ -529,7 +484,7 @@ I.G. Baek, D.C. Kim, M.J. Lee, H.J. Kim, E.K. Yim, M.S. Lee, J.E. Lee, S.E.
 A.~Asenov, S.~Kaya, and A.R. Brown.
 \newblock Intrinsic parameter fluctuations in decananometer mosfets introduced
   by gate line edge roughness.
-\newblock {\em IEEE Transactions on Electron Devices}, 50:1254--1260, 2003.
+\newblock {\em IEEE Transactions on Electron Devices}, 50(5):1254--1260, 2003.
 
 \bibitem{Tehrani00}
 S.~Tehrani et~al.
@@ -544,7 +499,9 @@ Gitae Jeong, Wooyoung Cho, S.~Ahn, Hongsik Jeong, Gwanhyeob Koh, Youngnam
 \newblock {\em IEEE Jour. of Solid-State Circuits}, 38(11):1906--1910, 2003.
 
 \bibitem{Li:147723}
-Spin-transfer torque memory self-reference read scheme.
+H.~Li, Y.~Chen, H.~Liu, K.~Kim, and H.~Huang.
+\newblock Spin-transfer torque memory self-reference read scheme.
+\newblock US Patent pending, application number 12/147,723.
 
 \bibitem{Pirovano04}
 A.~Pirovano, A.~L. Lacaita, S.~A. Kostylev, A.~Benvenuti, and R.~Bez.
@@ -559,92 +516,81 @@ Y.~Ho, G.~M. Huang, and P.~Li.
 \newblock In {\em IEEE/ACM 2009 International Conference on Computer-Aided
   Design (ICCAD)}, pages 482--490, 2009.
 
+\bibitem{Xu10}
+W.~Xu and T.~Zhang.
+\newblock Using time-aware memory sensing to address resistance drift issue in
+  multi-level phase change memory.
+\newblock In {\em IEEE International Symposium on Quality Electronic Design
+  (ISQED)}, 2010.
+
 \bibitem{Lu09}
 Chih-Yuan Lu, Kuang-Yeu Hsieh, and Rich Liu.
 \newblock Future challenges of flash memory technologies.
 \newblock {\em Microelectronic Engineering}, 86(3):283--286, 2009.
 
 \bibitem{Yan4430255}
-Non-ohmic device using tio2.
+Man~F. Yan.
+\newblock Non-ohmic device using {$TiO_2$}.
+\newblock US Patent number 4430255.
 
-\bibitem{Sun:147791}
-Magic pmc switch fabrication method and its application as selective element
-  for high density cross bar memory arrays.
+\bibitem{Song08}
+Ihun Song, Sunil Kim, Huaxiang Yin, Chang~Jung Kim, Jaechul Park, Sangwook Kim,
+  Hyuk~Soon Choi, Eunha Lee, and Youngsoo Park.
+\newblock Short channel characteristics of {G}allium-{I}ndium-{Z}inc-{O}xide
+  thin film transistors for three-dimensional stacking memory.
+\newblock {\em IEEE Electron Device Letters}, 29:549--552, 2008.
+
+\bibitem{Agarwal02}
+Agarwal, H.~Li, and K.~Roy.
+\newblock Drg-cache: A data retention gated-ground cache for low power.
+\newblock In {\em 39th Design Automation Conference (DAC)}, pages 473--478,
+  2002.
+
+\bibitem{Agarwal03}
+Agarwal, H.~Li, and K.~Roy.
+\newblock A single-vt low-leakage gated-ground cache for deep submicron.
+\newblock {\em IEEE Jour. Of Solid-State Circuits}, 35(2):319--328, 2003.
+
+\bibitem{Bhunia02}
+S.~Bhunia, H.~Li, and K.~Roy.
+\newblock A high performance iddq testable cache for scaled cmos technologies.
+\newblock In {\em IEEE Proceedings of the 11th Asian Test Symposium (ATS'02)},
+  pages 157--162, 2002.
 
 \bibitem{Chen:147727}
-Spin-transfer torque memory non-destructive self-reference read.
+Y.~Chen, H.~Li, H.~Liu, R.~Wang, and D.~Dimitrov.
+\newblock Spin-transfer torque memory non-destructive self-reference read.
+\newblock US Patent pending, application number 112/147,727.
 
-\bibitem{xie_url}
-{http://www.cse.psu.edu/~yuanxie/}.
+\bibitem{Li:242331}
+H.~Li, Y.~Chen, H.~Liu, and X.~Wang.
+\newblock Static source line in stat-ram.
+\newblock US Patent pending, application number 12/242,331.
 
-\bibitem{Xie:MTDT09}
-B.~Vaidyanathan, Yu~Wang, and Yuan Xie.
-\newblock Cost-aware lifetime yield analysis of heterogeneous 3d on-chip cache.
-\newblock In {\em IEEE International Workshop on Memory Technology, Design, and
-  Testing}, pages 65--70, 2009.
+\bibitem{Chen:170549}
+Y.~Chen, H.~Li, H.~Liu, Y.~Lu, and Y.~Li.
+\newblock Transmission gate-based spin-transfer torque memory unit.
+\newblock US Patent pending, application number 112/170,549.
 
-\bibitem{XIE:ASPDAC09-3D}
-S.~Sridharan, M.~DeBole, Guangyu Sun, Yuan Xie, and V.~Narayanan.
-\newblock A criticality-driven microarchitectural three dimensional (3d)
-  floorplanner.
-\newblock In {\em Asia and South Pacific Design Automation Conference　},
-  pages 763--768, 2009.
+\bibitem{Li:250027}
+H.~Li, Y.~Chen, H.~Liu, and H.~Huang.
+\newblock Non-volatile resistive sense memory on-chip cache.
+\newblock US Patent pending, application number 12/250,027.
 
-\bibitem{xie:isca08}
-Dongkook Park, S.~Eachempati, R.~Das, A.~K. Mishra, Y.~Xie, N.~Vijaykrishnan,
-  and C.~R. Das.
-\newblock Mira: A multi-layered on-chip interconnect router architecture.
-\newblock In {\em Computer Architecture, 2008. ISCA '08. 35th International
-  Symposium on}, pages 251--261, 2008.
+\bibitem{Li:426098}
+H.~Li, Y.~Chen, H.~Liu, H.~Huang, and R.~Wang.
+\newblock Write current compensation using word line boosting circuitry.
+\newblock US Patent pending, application number 12/426,098.
 
-\bibitem{Xie:ISCA09}
-Xiaoxia Wu, Jian Li, Lixin Zhang, Evan Speight, Ram Rajamony, and Yuan Xie.
-\newblock Hybrid cache architecture with disparate memory technologies.
-\newblock In {\em International Conference on Computer Architecture (ISCA)},
-  pages 34--45, 2009.
+\bibitem{Chen:198516}
+Y.~Chen, H.~Li, H.~Liu, Y.~Lu, and S.~Xue.
+\newblock Data devices including multiple error correction codes and methods of
+  utilizing.
+\newblock US Patent pending, application number 112/198,516.
 
-\bibitem{xie:isca06}
-F.~Li, C.~Nicopoulos, T.~Richardson, Y.~Xie, N.~Vijaykrishnan, and M.~Kandemir.
-\newblock Design and management of 3d chip multiprocessors using
-  network-in-memory.
-\newblock In {\em International Symposium on Computer Architecture (ISCA'06)},
-  2006.
-
-\bibitem{xie:tutorial-micro06}
-Y.~Xie, G.~Loh, B.~Black, and K.~Bernstein.
-\newblock Tutorial: 3d integration for microarchitecture.
-\newblock In {\em The 39th Annual IEEE/ACM International Symposium on
-  Microarchitecture}, 2006.
-
-\bibitem{XIE:ASPDAC2009-3Dcost}
-Xiangyu Dong and Yuan Xie.
-\newblock System-level cost analysis and design exploration for
-  three-dimensional integrated circuits (3d ics).
-\newblock In {\em Asia and South Pacific Design Automation Conference (ASP-DAC
-  2009)}, pages 234--241, 2009.
-
-\bibitem{xie:iccd07-3d}
-Xiaoxia Wu, Paul Frankstein, and Y.~Xie.
-\newblock Scan chain design for three-dimentional(3d) ics.
-\newblock In {\em International Conference on Computer Design}, 2007.
-
-\bibitem{XIE:ICCD08-3D}
-Xiaoxia Wu, Yibo Chen, Y.~Xie, and Krish Chakrabarty.
-\newblock Test-access mechanism optimization for core-based three-dimensional
-  socs.
-\newblock In {\em International Conference on Computer Design}, 2008.
-
-\bibitem{xie:isqed06-3d}
-W.~L. Hung, G.~M. Link, Y.~Xie, N.~Vijaykrishnan, and M.~J. Irwin.
-\newblock Interconnect and thermal-aware floorplanning for 3d microprocessors.
-\newblock In {\em International Symposium on Quality Electronic Device}, pages
-  98--104, 2006.
-
-\bibitem{xie:aspdac06}
-O.~Ozturk, Feng Wang, M.~Kandemir, and Yuan Xie.
-\newblock Optimal topology exploration for application-specific 3d
-  architectures.
-\newblock In {\em Asia and South Pacific Design Automation Conference}, page 6
-  pp., 2006.
+\bibitem{Li:502194}
+H.~Li, Y.~Chen, D.~Setiadi, H.~Liu, and B.~Lee.
+\newblock Defective bit scheme for multi-layer integrated memory device.
+\newblock US Patent pending, application number 12/502,194.
 
 \end{thebibliography}

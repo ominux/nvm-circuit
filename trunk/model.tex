@@ -41,8 +41,8 @@ can be easily integrated in the commercial EDA tools and design methodologies su
 The whole methodology and the corresponding outcomes, including device models, memory design flow, and IP's, will be distributed to the architecture and system design community. Our project will build a channel and provide a friendly interface among material development, device fabrication and architecture design.
 
 %=========================================================================
-%\textbf{I removed the Architectural modeling portion, since it is in 
-%our other proposal, reviewers could easily compare and claim that we 
+%\textbf{I removed the Architectural modeling portion, since it is in
+%our other proposal, reviewers could easily compare and claim that we
 %duplicate the writing and decline both proposals.}
 
 \begin{comment}
@@ -65,33 +65,26 @@ on the material characters and fabrication process. However, the circuit design
 of the memory array, such as the access device of the memory cell, the operational
 voltage, and the pheriphral circuitry, can also impact the operation
 conditions of the cell, such as current and power consumption. In this task, we propose to explore the design space of the NVM memory array, and study the energy/performance/reliability tradeoffs for memory design with such emerging
-memory technologies.  
+memory technologies.
 
 Due to the intrinsic non-volatile characteristics of these emerging memory technology, naturally the read and write behaviors are asymmetric in terms of performance and energy. For example, the write-operation of PCRAM/MRAM requires a large current to be applied for a period of time so that the state of the storage junction is flipped; while the read-operation is realized by applying a small voltage to the cell and sensing the current across the cell.
-We propose to analyze the constrained conditions of he design of NVM memory array, and study the sizing of the transistors as well as the operational voltages to investigate the tradeoff of the distinguishability~\footnote{During the read operation, the ratio of high resistance to low resistance in the storage junction reflects the distinguishability between logic 1 and 0}, energy consumption, lifetime and speed. For example, both the width of NMOS access device and word-line 
-voltage can obviously affect the distinguishability. A higher word-line voltage or a larger NMOS device is more desirable to obtain a high distinguishability. However, the power consumption issues and area consideration always require a low voltage and small device size. 
-Another example is on the lifetime/energy/performance tradeoff. 
+We propose to analyze the constrained conditions of he design of NVM memory array, and study the sizing of the transistors as well as the operational voltages to investigate the tradeoff of the distinguishability~\footnote{During the read operation, the ratio of high resistance to low resistance in the storage junction reflects the distinguishability between logic 1 and 0}, energy consumption, lifetime and speed. For example, both the width of NMOS access device and word-line
+voltage can obviously affect the distinguishability. A higher word-line voltage or a larger NMOS device is more desirable to obtain a high distinguishability. However, the power consumption issues and area consideration always require a low voltage and small device size.
+Another example is on the lifetime/energy/performance tradeoff.
 For example, the lifetime of PCRAM is represented by the cycling
-endurance, which is a function of pulse energy applied for 
-the memory cell during the RESET writing. The reason for 
-higher energy pulse induced cycle lifetime degradation 
-is that the RESET resistance can be saturated when the 
+endurance, which is a function of pulse energy applied for
+the memory cell during the RESET writing. The reason for
+higher energy pulse induced cycle lifetime degradation
+is that the RESET resistance can be saturated when the
 writing current is higher than a critical level. This
 "over programming`` phenomena can result in lager amorphous
-volume, and then degrade the PCRAM¡¯s lifetime. Consequently, 
+volume, and then degrade the PCRAM¡¯s lifetime. Consequently,
 a large write current can help improve the performance, but affect both lifetime and energy. Consequently, depending on the application,
-we plan to investigate two optimization strategies: (1) \textit{Energy-driven optimization.} For low power application, such as mobile computing platform, energy consumption may be the most important design goals. We can optimize the word-line and bit-line voltage as well as the transistor sizing of the access NMOS device for memory array to achieve minimal energy consumption while satisfy constrains on lifetime, performance, and area. (2) \textit{Performance-driven optimization.} For high performance application, We can perform the optimization to achieve the best read/write performance while satisfy constrains on lifetime, energy, and area. Such optimization strategies can also be extended to lifetime-driven optimization and density-driven optimization.  
+we plan to investigate two optimization strategies: (1) \textit{Energy-driven optimization.} For low power application, such as mobile computing platform, energy consumption may be the most important design goals. We can optimize the word-line and bit-line voltage as well as the transistor sizing of the access NMOS device for memory array to achieve minimal energy consumption while satisfy constrains on lifetime, performance, and area. (2) \textit{Performance-driven optimization.} For high performance application, We can perform the optimization to achieve the best read/write performance while satisfy constrains on lifetime, energy, and area. Such optimization strategies can also be extended to lifetime-driven optimization and density-driven optimization.
 
 
 \subsection{Preliminary Result and Collaborations:}
 The PI Li has built a combined magnetic and circuit design analysis and optimization methodology for MRAM, which has been proved to improve design efficiency significantly~\cite{Chen08} by test-chip design and fabrication at Seagate. We are also one of the first researchers to propose spintronic memristor structures~\cite{Wang09}, which was interviewed by IEEE Spectrum~\cite{Spectrum09}. The corresponding compact model and corner analysis~\cite{Chen09} have also been developed. In this project, we will further extend this methodology to other emerging NVMs, such as PCRAM.
 
-The PSU PI Xie has developed a stacked SRAM cache
-simulator called 3DCacti~\cite{xie:iccd05-3d, XIE:TVLSI2008-3DCacti},
-which has been widely downloaded and used by other researchers.
-The PI and co-PI have collaborated together when the PI Li was in Seagate,
-to develop a preliminary version of MRAM simulator for cache stacking~\cite{Xie:dac08,XIE:HPCA09}.
-Xie also collaborated with Dr. Norm Jouppi
-from HP Labs, developed a preliminary version of PCRAM simulator~\cite{xie:pcramsim}.
-We will extend our existing toolsets to support architectural exploration.
- 
+The PSU PI Xie has developed a stacked SRAM cache simulator called 3DCacti~\cite{xie:iccd05-3d, XIE:TVLSI2008-3DCacti}, which has been widely downloaded and used by other researchers. The PI and co-PI have collaborated together when the PI Li was in Seagate, to develop a preliminary version of MRAM simulator for cache stacking~\cite{Xie:dac08,XIE:HPCA09}. Xie also collaborated with Dr. Norm Jouppi from HP Labs, developed a preliminary version of PCRAM simulator~\cite{xie:pcramsim}. We will extend our existing toolsets to support architectural exploration.
+
