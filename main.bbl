@@ -455,41 +455,6 @@ Xiangyu Dong, Xiaoxia Wu, Guangyu Sun, Yuan Xie, Hai Li, and Yiran Chen.
 \newblock In {\em 45th ACM/IEEE Design Automation Conference (DAC)}, pages
   554--559, 2008.
 
-\bibitem{synopsys}
-{http://www.synopsys.com}.
-
-\bibitem{Spectrum09}
-Spintronic memristors,
-  http://www.spectrum.ieee.org/semiconductors/devices/spintronic-memristors/0.
-
-\bibitem{xie:iccd05-3d}
-Yuh-Fang Tsai, Yuan Xie, N.~Vijaykrishnan, and M.~J. Irwin.
-\newblock Three-dimensional cache design exploration using 3dcacti.
-\newblock In {\em International Conference on Computer Design (ICCD)}, pages
-  519--524, 2005.
-
-\bibitem{XIE:TVLSI2008-3DCacti}
-Yuh-Fang Tsai, Feng Wang, Yuan Xie, N.~Vijaykrishnan, and M.~J. Irwin.
-\newblock Design space exploration for 3-d cache.
-\newblock {\em IEEE Transactions on Very Large Scale Integration (VLSI)
-  Systems}, 16(4):444--455, 2008.
-
-\bibitem{XIE:HPCA09}
-Guangyu Sun, Xiangyu Dong, Yuan Xie, Jian Li, and Yiran Chen.
-\newblock A novel architecture of the 3d stacked mram l2 cache for cmps.
-\newblock In {\em IEEE 15th International Symposium on High Performance
-  Computer Architecture, 2009.}, pages 239--249, 2009.
-
-\bibitem{xie:pcramsim}
-Xiangyu Dong, Norm Jouppi, and Yuan Xie.
-\newblock Pcramsim: System-level performance, energy, and area modeling for
-  phase-change ram.
-\newblock In {\em Proceedings of International Conference on Computer-Aided
-  Design (ICCAD)}, pages 269--275, 2009.
-
-\bibitem{CACTI}
-http://hpl.hp.com/research/cacti/.
-
 \bibitem{Lee09}
 Benjamin Lee, Engin Ipek, Onur Mutlu, and Doug Burger.
 \newblock Architecting phase change memory as a scalable {DRAM} alternative.
@@ -531,98 +496,22 @@ Gitae Jeong, Wooyoung Cho, S.~Ahn, Hongsik Jeong, Gwanhyeob Koh, Youngnam
   Hwang, and K.~Kim.
 \newblock A 0.24$\mu$m 2.0-{V} 1{T}1{MTJ} 16-kb nonvolatile magnetoresistance
   {RAM} with self-reference sensing scheme.
-\newblock In {\em IEEE Jour. of Solid-State Circuits}, volume~38, pages
-  1906--1910, 2003.
+\newblock {\em IEEE Jour. of Solid-State Circuits}, 38(11):1906--1910, 2003.
 
 \bibitem{Li:147723}
 Spin-transfer torque memory self-reference read scheme.
 
-\bibitem{Lu09}
-Chih-Yuan Lu, Kuang-Yeu Hsieh, and Rich Liu.
-\newblock Future challenges of flash memory technologies.
-\newblock {\em Microelectronic Engineering}, 86(3):283--286, 2009.
+\bibitem{Pirovano04}
+A.~Pirovano, A.~L. Lacaita, S.~A. Kostylev, A.~Benvenuti, and R.~Bez.
+\newblock Low-field amorphous state resistance and threshold voltage drift in
+  chalcogenide materials.
+\newblock {\em IEEE Transactions on Electron Devices}, 51:714--719, 2004.
 
-\bibitem{Yan4430255}
-Non-ohmic device using tio2.
-
-\bibitem{Sun:147791}
-Magic pmc switch fabrication method and its application as selective element
-  for high density cross bar memory arrays.
-
-\bibitem{Chen:147727}
-Spin-transfer torque memory non-destructive self-reference read.
-
-\bibitem{xie_url}
-{http://www.cse.psu.edu/~yuanxie/}.
-
-\bibitem{Xie:MTDT09}
-B.~Vaidyanathan, Yu~Wang, and Yuan Xie.
-\newblock Cost-aware lifetime yield analysis of heterogeneous 3d on-chip cache.
-\newblock In {\em IEEE International Workshop on Memory Technology, Design, and
-  Testing}, pages 65--70, 2009.
-
-\bibitem{XIE:ASPDAC09-3D}
-S.~Sridharan, M.~DeBole, Guangyu Sun, Yuan Xie, and V.~Narayanan.
-\newblock A criticality-driven microarchitectural three dimensional (3d)
-  floorplanner.
-\newblock In {\em Asia and South Pacific Design Automation Conference　},
-  pages 763--768, 2009.
-
-\bibitem{xie:isca08}
-Dongkook Park, S.~Eachempati, R.~Das, A.~K. Mishra, Y.~Xie, N.~Vijaykrishnan,
-  and C.~R. Das.
-\newblock Mira: A multi-layered on-chip interconnect router architecture.
-\newblock In {\em Computer Architecture, 2008. ISCA '08. 35th International
-  Symposium on}, pages 251--261, 2008.
-
-\bibitem{Xie:ISCA09}
-Xiaoxia Wu, Jian Li, Lixin Zhang, Evan Speight, Ram Rajamony, and Yuan Xie.
-\newblock Hybrid cache architecture with disparate memory technologies.
-\newblock In {\em International Conference on Computer Architecture (ISCA)},
-  pages 34--45, 2009.
-
-\bibitem{xie:isca06}
-F.~Li, C.~Nicopoulos, T.~Richardson, Y.~Xie, N.~Vijaykrishnan, and M.~Kandemir.
-\newblock Design and management of 3d chip multiprocessors using
-  network-in-memory.
-\newblock In {\em International Symposium on Computer Architecture (ISCA'06)},
-  2006.
-
-\bibitem{xie:tutorial-micro06}
-Y.~Xie, G.~Loh, B.~Black, and K.~Bernstein.
-\newblock Tutorial: 3d integration for microarchitecture.
-\newblock In {\em The 39th Annual IEEE/ACM International Symposium on
-  Microarchitecture}, 2006.
-
-\bibitem{XIE:ASPDAC2009-3Dcost}
-Xiangyu Dong and Yuan Xie.
-\newblock System-level cost analysis and design exploration for
-  three-dimensional integrated circuits (3d ics).
-\newblock In {\em Asia and South Pacific Design Automation Conference (ASP-DAC
-  2009)}, pages 234--241, 2009.
-
-\bibitem{xie:iccd07-3d}
-Xiaoxia Wu, Paul Frankstein, and Y.~Xie.
-\newblock Scan chain design for three-dimentional(3d) ics.
-\newblock In {\em International Conference on Computer Design}, 2007.
-
-\bibitem{XIE:ICCD08-3D}
-Xiaoxia Wu, Yibo Chen, Y.~Xie, and Krish Chakrabarty.
-\newblock Test-access mechanism optimization for core-based three-dimensional
-  socs.
-\newblock In {\em International Conference on Computer Design}, 2008.
-
-\bibitem{xie:isqed06-3d}
-W.~L. Hung, G.~M. Link, Y.~Xie, N.~Vijaykrishnan, and M.~J. Irwin.
-\newblock Interconnect and thermal-aware floorplanning for 3d microprocessors.
-\newblock In {\em International Symposium on Quality Electronic Device}, pages
-  98--104, 2006.
-
-\bibitem{xie:aspdac06}
-O.~Ozturk, Feng Wang, M.~Kandemir, and Yuan Xie.
-\newblock Optimal topology exploration for application-specific 3d
-  architectures.
-\newblock In {\em Asia and South Pacific Design Automation Conference}, page 6
-  pp., 2006.
+\bibitem{Ho09}
+Y.~Ho, G.~M. Huang, and P.~Li.
+\newblock Nonvolatile memristor memory: device characteristics and design
+  implications.
+\newblock In {\em IEEE/ACM 2009 International Conference on Computer-Aided
+  Design (ICCAD)}, pages 482--490, 2009.
 
 \end{thebibliography}

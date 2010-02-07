@@ -32,12 +32,12 @@ Let's use a 2-bit MLC as an example. Each memory cell can represent four logic s
 
 Furthermore, let's name the four resistance states of a 2-bit MLC are $R00$, $R01$, $R10$, and $R11$ from low to high. We noticed that switching to different resistance state in an MLC need follow specific sequence and/or demand different write current as shown in Figure~\ref{mlc}. For example, the multiple resistances in PCRAM are achieved by different size and shape of the amorphous region at the top of the pillar-heater within the phase change material. Hence, the target resistance strongly depends on temperature and time during write operations. An MRAM MLC has two free layers whose magnetization directions can be switched separately. Therefore, two-step writing -- a large current switching followed by a low current one -- is required.
 
-Corresponding to the four resistance states, an MLC cell has total of $4! = 24$ encoding schemes for its four logic states. As we stated above that the breakdown probability of a NVM cell has an exponential relationship with the current amplitude through it, the damage to memory material has different weight when writing different data. Properly selecting the encoding scheme of logic vs. physical states based on the transition distributions can further improve the write endurance and lifetime of MLC NVM technologies. 
+Corresponding to the four resistance states, an MLC cell has total of $4! = 24$ encoding schemes for its four logic states. As we stated above that the breakdown probability of a NVM cell has an exponential relationship with the current amplitude through it, the damage to memory material has different weight when writing different data. Properly selecting the encoding scheme of logic vs. physical states based on the transition distributions can further improve the write endurance and lifetime of MLC NVM technologies.
 
 \subsection{Task 2.2: Yield Enhancement}
 Higher defect rates and low yield are brought by the continuous shrinking of devices and the unlimited demand on higher densities. As technology enters into nanometer scale, device parameter fluctuations induced by process variations, such as line-edge roughnesses (LERs) and oxide thickness fluctuations (OTFs) have become critical issues~\cite{Asenov03}. Emerging non-volatile memories, which are among the densest circuits in systems, are greatly impacted by the large process variations. For example, MTJ resistance in MRAM increases exponentially with the thickness of oxide barrier between two magnetic layers. It was reported in~\cite{Tehrani00} that MTJ resistance increases by 8\% when the thickness of oxide barrier changes from 14${\AA}$ to 14.1${\AA}$. In the program, we propose to overcome the impact of process variations and to enhance yield with the aid of the unique device characteristics of NVMs.
 
-\squishlist \item {\textbf{MRAM: Non-Destructive Self-Reference Technology}} \squishend
+\squishlist \item {\textbf{Non-Destructive Self-Reference Technology in MRAM}} \squishend
 
 \begin{figure}
 \centering
@@ -59,9 +59,11 @@ In this project, we will work on a \textbf{\textit{non-destructive self-referenc
 
 There are some uncertainties to realize this approach. For example, how much is the sensing margin in the new read-out scheme after considering process variations? What type of sensing circuitry is more optimal? Will a new sense-amplifier (SA) design be necessary? How does it impact memory array structure? How much yield improvement can be achieved with the new scheme? Will this scheme be still valid when technology further scales down? In this proposal, we will investigate these issues and exploring the solutions. Our target is to minimize the effect of process variation and to improve read speed.
 
-\paragraph{dopant drifting in Memristor, read window change???}
-\textbf{\underline{HL: Add new section here.}}
-Process has more impacts on memristor-based design, especially when memristor is used for a continuous data storage and detection.
+\squishlist \item {\textbf{Resistance Drift in PCRAM and Memristor}} \squishend
+
+Resistance drift has been observed in both PCRAM and memristor-based memory. In PCRAM, especially multi-level memory, the amorphous phase (and other phases obtained by incomplete phase transition) is metastable and can experience structural relaxation~\cite{Pirovano04}, which results in resistance drift over the time. For a memristor-based memory, if the read operation cannot provide zero flux, the resistance could ``drift'' to one direction continuously due to the accumulative effect of the input flux~\cite{Ho09}.
+
+Resistance drift can increase resistance variation $\sigma_R$ and hence, spread out the resistance distribution. Memory access patterns (i.e. the resistance state stored in the cell, read/write access frequency and interval, etc) strongly impact the resistance drift. On top of the process variations, the resistance drifts make the design margin is even smaller, which aggravates read failure and further hurt chip yield.
 
 
 \subsection{Task 2.3: Density Enhancement}
