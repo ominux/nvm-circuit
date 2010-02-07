@@ -455,4 +455,51 @@ Xiangyu Dong, Xiaoxia Wu, Guangyu Sun, Yuan Xie, Hai Li, and Yiran Chen.
 \newblock In {\em 45th ACM/IEEE Design Automation Conference (DAC)}, pages
   554--559, 2008.
 
+\bibitem{Lee09}
+Benjamin Lee, Engin Ipek, Onur Mutlu, and Doug Burger.
+\newblock Architecting phase change memory as a scalable {DRAM} alternative.
+\newblock In {\em The 36th International Symposium on Computer Architecture
+  (ISCA)}, 2009.
+
+\bibitem{Park04}
+Jong-Ho Park, Sung-Hoi Hur, Joon-Hee Leex, Jin-Taek Park, Jong-Sun Sel,
+  Jong-Won Kim, Sang-Bin Song, Jung-Young Lee, Ji-Hwon Lee, Suk-Joon Son,
+  Yong-Seok Kim, Min-Cheol Park, Soo-Jin Chai, Jung-Dal Choi, U.~In Chung,
+  Joo-Tae Moon, Kyeong-Tae Kim, Kinam Kim, and Byung-Il Ryu.
+\newblock 8{G}b {MLC} (multi-level cell) {NAND} flash memory using 63nm process
+  technology.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  876--876, 2004.
+
+\bibitem{Baek05}
+I.G. Baek, D.C. Kim, M.J. Lee, H.J. Kim, E.K. Yim, M.S. Lee, J.E. Lee, S.E.
+  Ahn, S.~Seo, J.H. Lee, J.C. Park, Y.K. Cha, S.O. Park, H.S. Kim, I.K. Yoo,
+  U.In Chung, J.T. Moon, and B.I. Ryu.
+\newblock Multi-layer cross-point binary oxide resistive memory ({O}x{RRAM})
+  for post-{NAND} storage application.
+\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
+  750--753, 2005.
+
+\bibitem{Asenov03}
+A.~Asenov, S.~Kaya, and A.R. Brown.
+\newblock Intrinsic parameter fluctuations in decananometer mosfets introduced
+  by gate line edge roughness.
+\newblock {\em IEEE Transactions on Electron Devices}, 50:1254--1260, 2003.
+
+\bibitem{Tehrani00}
+S.~Tehrani et~al.
+\newblock Recent developments in magnetic tunnel junction {MRAM}.
+\newblock In {\em IEEE Trans. Magn.}, volume~36, pages 2752--2757, 2000.
+
+\bibitem{Jeong03}
+Gitae Jeong, Wooyoung Cho, S.~Ahn, Hongsik Jeong, Gwanhyeob Koh, Youngnam
+  Hwang, and K.~Kim.
+\newblock A 0.24$\mu$m 2.0-{V} 1{T}1{MTJ} 16-kb nonvolatile magnetoresistance
+  {RAM} with self-reference sensing scheme.
+\newblock In {\em IEEE Jour. of Solid-State Circuits}, volume~38, pages
+  1906--1910, 2003.
+
+\bibitem{Li:147723}
+Spin-transfer torque memory self-reference read scheme.
+
 \end{thebibliography}
