@@ -35,6 +35,10 @@ can be easily integrated in the commercial EDA tools and design methodologies su
 
 The whole methodology and the corresponding outcomes, including device models, memory design flow, and IP's, will be distributed to the architecture and system design community. Our project will build a channel and provide a friendly interface among material development, device fabrication and architecture design.
 
+\textbf{I removed the Architectural modeling portion, since it is in 
+our other proposal, reviewers could easily compare and claim that we 
+duplicate the writing and decline both proposals.}
+\begin{comment}
 \subsubsection{Architectural Modeling}
 
 Based on the device/circuit-level modeling and analysis methodologies described in Task 1-A, we will develop a PCRAM/MRAM simulator, which can be easily integrated with architecture simulators including Simplescalar-based single core simulator~\cite{simplescalar:computer02,sim-alpha}, and multi-core simulators such as M5~\cite{3D:M5},GEMS~\cite{martin:can05} or PTLsim~\cite{PTLsim}.
@@ -43,6 +47,8 @@ Note that tools such as CACTI~\cite{CACTI:NORM,PRAM:EVANS,PRAM:eCACTI,PRAM:CACTI
 
 In addition, where to place these NVM memories in the traditional memory hierarchy also influences the modeling methodologies. For example, the emerging NVMs could be used as a replacement for on-chip cache or for off-chip DIMM (dual in-line memory module). Obviously, the performance/power of on-chip cache and off-chip DIMM would be quite different: When a NVM is integrated with logics on the same die, there is no off-chip pin limitation so that the interface between NVM and logic can be re-designed to provide a much higher bandwidth. Furthermore, off-chip memory is not affected by the thermal profile of the microprocessor core while the on-chip cache is affected by the heat dissipation from the hot cores. While higher on-chip temperature has a negative impact on SRAM/DRAM memory, it actually has a positive influence on PCRAM because the heat can facilitate the write operations of PCRAM cell. The performance estimation of PCRAM becomes much more complicated in such a case.
 Moreover, building an accurate PCRAM/MRAM simulator needs close collaborations with the industry (see collaboration letters from HP, IBM, IMEC, and Seagate) to understand physics and circuit details, as well as architectural level requirements such as the interface/interconnect with the multi-core CPUs.
+
+\end{comment}
 
 \subsubsection{Preliminary Result and Collaborations:}
 The PI Li has built a combined magnetic and circuit design analysis and optimization methodology for MRAM, which has been proved to improve design efficiency significantly~\cite{Chen08} by test-chip design and fabrication at Seagate. We are also one of the first researchers to propose spintronic memristor structures~\cite{Wang09}, which was interviewed by IEEE Spectrum~\cite{Spectrum09}. The corresponding compact model and corner analysis~\cite{Chen09} have also been developed. In this project, we will further extend this methodology to other emerging NVMs, such as PCRAM.
