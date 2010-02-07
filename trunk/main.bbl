@@ -493,6 +493,19 @@ Benjamin Lee, Engin Ipek, Onur Mutlu, and Doug Burger.
 \newblock In {\em The 36th International Symposium on Computer Architecture
   (ISCA)}, 2009.
 
+\bibitem{PRAM:Microsoft}
+Benjamin~C. Lee, Engin Ipek, Onur Mutlu, and Doug Burger.
+\newblock {Architecting Phase Change Memory as a Scalable DRAM Alternative}.
+\newblock In {\em Computer Architecture, 2009. ISCA '09. 36th International
+  Symposium on}, 2009.
+
+\bibitem{PRAM:IBM}
+Moinuddin~K. Qureshi, Viji Srinivasan, and Jude~A. Rivers.
+\newblock {Scalable High Performance Main Memory System Using Phase-Change
+  Memory Technology}.
+\newblock In {\em Computer Architecture, 2009. ISCA '09. 36th International
+  Symposium on}, 2009.
+
 \bibitem{Park04}
 Jong-Ho Park, Sung-Hoi Hur, Joon-Hee Leex, Jin-Taek Park, Jong-Sun Sel,
   Jong-Won Kim, Sang-Bin Song, Jung-Young Lee, Ji-Hwon Lee, Suk-Joon Son,
