@@ -47,13 +47,6 @@ S.~Lai.
 \newblock In {\em Proceedings of the IEEE International Electron Devices
   Meeting (IEDM)}, pages 10.1.1--10.1.4, 2003.
 
-\bibitem{Chen06}
-Y.~C. Chen, C.~T. Rettner, S.~Raoux, G.~W. Burr, S.~H. Chen, R.~M. Shelby,
-  M.~Salinga, and et~al.
-\newblock Ultra-thin phase-change bridge memory device using {G}e{S}b.
-\newblock In {\em Proceedings of the IEEE International Electron Devices
-  Meeting (IEDM)}, pages 30.3.1--30.3.4, 2006.
-
 \bibitem{Cho05}
 S.~L.~Cho et~al.
 \newblock Highly scalable on-axis confined cell structure for high density
@@ -504,16 +497,6 @@ Moinuddin~K. Qureshi, Viji Srinivasan, and Jude~A. Rivers.
 \newblock In {\em 36th International Symposium on Computer Architecture
   (ISCA)}, 2009.
 
-\bibitem{Park04}
-Jong-Ho Park, Sung-Hoi Hur, Joon-Hee Leex, Jin-Taek Park, Jong-Sun Sel,
-  Jong-Won Kim, Sang-Bin Song, Jung-Young Lee, Ji-Hwon Lee, Suk-Joon Son,
-  Yong-Seok Kim, Min-Cheol Park, Soo-Jin Chai, Jung-Dal Choi, U.~In Chung,
-  Joo-Tae Moon, Kyeong-Tae Kim, Kinam Kim, and Byung-Il Ryu.
-\newblock 8{G}b {MLC} (multi-level cell) {NAND} flash memory using 63nm process
-  technology.
-\newblock In {\em IEEE International Electron Devices Meeting (IEDM)}, pages
-  876--876, 2004.
-
 \bibitem{Baek05}
 I.G. Baek, D.C. Kim, M.J. Lee, H.J. Kim, E.K. Yim, M.S. Lee, J.E. Lee, S.E.
   Ahn, S.~Seo, J.H. Lee, J.C. Park, Y.K. Cha, S.O. Park, H.S. Kim, I.K. Yoo,
@@ -600,6 +583,17 @@ S.~Bhunia, H.~Li, and K.~Roy.
 \newblock In {\em IEEE Proceedings of the 11th Asian Test Symposium (ATS'02)},
   pages 157--162, 2002.
 
+\bibitem{Chen:198516}
+Y.~Chen, H.~Li, H.~Liu, Y.~Lu, and S.~Xue.
+\newblock Data devices including multiple error correction codes and methods of
+  utilizing.
+\newblock US Patent pending, application number 112/198,516.
+
+\bibitem{Li:502194}
+H.~Li, Y.~Chen, D.~Setiadi, H.~Liu, and B.~Lee.
+\newblock Defective bit scheme for multi-layer integrated memory device.
+\newblock US Patent pending, application number 12/502,194.
+
 \bibitem{Chen:147727}
 Y.~Chen, H.~Li, H.~Liu, R.~Wang, and D.~Dimitrov.
 \newblock Spin-transfer torque memory non-destructive self-reference read.
@@ -625,19 +619,8 @@ H.~Li, Y.~Chen, H.~Liu, H.~Huang, and R.~Wang.
 \newblock Write current compensation using word line boosting circuitry.
 \newblock US Patent pending, application number 12/426,098.
 
-\bibitem{Chen:198516}
-Y.~Chen, H.~Li, H.~Liu, Y.~Lu, and S.~Xue.
-\newblock Data devices including multiple error correction codes and methods of
-  utilizing.
-\newblock US Patent pending, application number 112/198,516.
-
-\bibitem{Li:502194}
-H.~Li, Y.~Chen, D.~Setiadi, H.~Liu, and B.~Lee.
-\newblock Defective bit scheme for multi-layer integrated memory device.
-\newblock US Patent pending, application number 12/502,194.
-
 \bibitem{Xie:TC09}
-M.~Mutyam, Feng Wang, R.~Krishnan, V.~Narayanan, M.~Kandemir, Yuan Xie, and
+M.~Mutyam, Feng Wang, R.~Krishnan, V.~Narayanan, M.~Kandemir, and Y.~Xieand
   M.~J. Irwin.
 \newblock Process-variation-aware adaptive cache architecture and management.
 \newblock {\em IEEE Transactions on Computers}, 58(7):865--877, 2009.
@@ -657,10 +640,10 @@ Xiaoxia Wu, Jian Li, Lixin Zhang, Evan Speight, Ram Rajamony, and Yuan Xie.
 
 \bibitem{xie:glsvisl08-pram}
 Prasanth Mangalagiri, Karthik Sarpatwari, Aditya Yanamandra, VijayKrishnan
-  Narayanan, Yuan Xie, Mary~Jane Irwin, and Osama~Awadel Karim.
+  Narayanan, Yuan Xie, Mary~Jane Irwin, and Osama AwadelKarim.
 \newblock A low-power phase change memory based hybrid cache architecture.
 \newblock In {\em Proceedings of the 18th ACM Great Lakes symposium on VLSI},
-  pages 395--398, Orlando, Florida, USA, 2008. ACM.
+  pages 395--398, 2008.
 
 \bibitem{xie_url}
 {http://www.cse.psu.edu/$\sim$yuanxie/}.
