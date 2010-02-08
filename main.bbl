@@ -636,8 +636,11 @@ H.~Li, Y.~Chen, D.~Setiadi, H.~Liu, and B.~Lee.
 \newblock Defective bit scheme for multi-layer integrated memory device.
 \newblock US Patent pending, application number 12/502,194.
 
-\bibitem{xie_url}
-{http://www.cse.psu.edu/$\sim$yuanxie/}.
+\bibitem{Xie:TC09}
+M.~Mutyam, Feng Wang, R.~Krishnan, V.~Narayanan, M.~Kandemir, Yuan Xie, and
+  M.~J. Irwin.
+\newblock Process-variation-aware adaptive cache architecture and management.
+\newblock {\em IEEE Transactions on Computers}, 58(7):865--877, 2009.
 
 \bibitem{Xie:MTDT09}
 B.~Vaidyanathan, Yu~Wang, and Yuan Xie.
@@ -645,6 +648,22 @@ B.~Vaidyanathan, Yu~Wang, and Yuan Xie.
   cache.
 \newblock In {\em IEEE International Workshop on Memory Technology, Design, and
   Testing}, pages 65--70, 2009.
+
+\bibitem{Xie:ISCA09}
+Xiaoxia Wu, Jian Li, Lixin Zhang, Evan Speight, Ram Rajamony, and Yuan Xie.
+\newblock Hybrid cache architecture with disparate memory technologies.
+\newblock In {\em International Conference on Computer Architecture (ISCA)},
+  pages 34--45, 2009.
+
+\bibitem{xie:glsvisl08-pram}
+Prasanth Mangalagiri, Karthik Sarpatwari, Aditya Yanamandra, VijayKrishnan
+  Narayanan, Yuan Xie, Mary~Jane Irwin, and Osama~Awadel Karim.
+\newblock A low-power phase change memory based hybrid cache architecture.
+\newblock In {\em Proceedings of the 18th ACM Great Lakes symposium on VLSI},
+  pages 395--398, Orlando, Florida, USA, 2008. ACM.
+
+\bibitem{xie_url}
+{http://www.cse.psu.edu/$\sim$yuanxie/}.
 
 \bibitem{XIE:ASPDAC09-3D}
 S.~Sridharan, M.~DeBole, Guangyu Sun, Yuan Xie, and V.~Narayanan.
@@ -659,12 +678,6 @@ Dongkook Park, S.~Eachempati, R.~Das, A.~K. Mishra, Y.~Xie, N.~Vijaykrishnan,
 \newblock {MIRA}: {A} multi-layered on-chip interconnect router architecture.
 \newblock In {\em 35th International Symposium on Computer Architecture
   (ISCA)}, pages 251--261, 2008.
-
-\bibitem{Xie:ISCA09}
-Xiaoxia Wu, Jian Li, Lixin Zhang, Evan Speight, Ram Rajamony, and Yuan Xie.
-\newblock Hybrid cache architecture with disparate memory technologies.
-\newblock In {\em International Conference on Computer Architecture (ISCA)},
-  pages 34--45, 2009.
 
 \bibitem{xie:isca06}
 F.~Li, C.~Nicopoulos, T.~Richardson, Y.~Xie, N.~Vijaykrishnan, and M.~Kandemir.
